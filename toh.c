@@ -13,7 +13,8 @@ void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod)
   
 int main() 
 { 
-    int n = 4;
-    towerOfHanoi(n, 'A', 'C', 'B');
+    int disks;
+    scanf("%d", &disks);
+    towerOfHanoi(disks, 'A', 'C', 'B');
     return 0; 
 } 
